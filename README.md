@@ -2,9 +2,7 @@
 ### Description of Repository
 This repository stores all relevant files and data for the programming assignment in
 "Getting and Cleaning Data" course. 
-
 This course is organised by Johns Hopkins University via the Coursera platform.
-
 This is a submission by Nicholas Lee from Malaysia.
 
 
@@ -34,13 +32,13 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 5. Tidy Data. txt  - Results of run_analysis.R which is a tidy data set
 
 ### Quick Start Guide
-Step 1: Download the file (zip) from the link under the Data Source section.
-Step 2: Unzip the file into a working directory of your choice. Ensure that the "UCI HAR Dataset" folder is in the same directory as the run_analysis.R script.
-Step 3: Open up R Studio.
-Step 4: Run the following commands:
-        a. setwd("<Key in your working directory>")
-        b. source("run_analysis.R")             ## a "Tidy Data.txt" file will be produced in "UCI HAR Dataset" folder
-        c. dtResults <- read.table("Tidy Data.txt")     ## to get data from text file into a data frame
-        d. View(dtResults)                              ## To view the results
+1. Download the file (zip) from the link under the Data Source section.
+2. Unzip the file into a working directory of your choice. Ensure that the "UCI HAR Dataset" folder is in the same directory as the run_analysis.R script.
+3. Open up R Studio.
+4. Run the following commands: <br />
+        a. setwd("Key in your working directory") <br />
+        b. source("run_analysis.R")                 <br />
+        c. dtResults <- read.table("Tidy Data.txt") <br />
+        d. View(dtResults)                          <br />
 
 
