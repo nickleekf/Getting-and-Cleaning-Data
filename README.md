@@ -1,13 +1,15 @@
 # Getting-and-Cleaning-Data Course
 ### Description of Repository
 This repository stores all relevant files and data for the programming assignment in
-"Getting and Cleaning Data" course organised by Johns Hopkins University via the Coursera platform.
+"Getting and Cleaning Data" course. 
+
+This course is organised by Johns Hopkins University via the Coursera platform.
 
 This is a submission by Nicholas Lee from Malaysia.
 
 
 ### Purpose of programming assignment
-The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set from a case studythat collects data from the accelerometers of Samsung Galaxy S smartphone. The goal is to prepare tidy data that can be used for later analysis.
+The purpose of this project is to show how data is collected, processed and cleanse into a tidy data format that can be used for later analysis. To demonstrate this, raw data from a case study will be used. The raw data here contains human activity recognition data built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 
 More specifically, the project requires us to develop an R script that does the following:
 1. Merges the training and the test sets to create one data set.
@@ -28,15 +30,17 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 1. run_analysis.R
 2. README.md
 3. CodeBook.md
-4. 'UCI HAR Dataset' folder that stores the downloaded data sets and the tidy data set - "Tidy Data.txt".
+4. 'UCI HAR Dataset' - folder that stores the downloaded data sets
+5. Tidy Data. txt  - Results of run_analysis.R which is a tidy data set
 
 ### Quick Start Guide
-Step 1: Download the file (zip) from the link above in the Data Source section.
+Step 1: Download the file (zip) from the link under the Data Source section.
 Step 2: Unzip the file into a working directory of your choice. Ensure that the "UCI HAR Dataset" folder is in the same directory as the run_analysis.R script.
-Step 3: Open up R Studio
+Step 3: Open up R Studio.
 Step 4: Run the following commands:
-        a. setwd("<Your working directory>")
-        b. source("run_analysis.R")  ## a "Tidy Data.txt" file will be produced
-Step 5: Run View("./UCI HAR Dataset/Tidy Data.txt")  ## A data set of a list of averages will be displayed 
+        a. setwd("<Key in your working directory>")
+        b. source("run_analysis.R")             ## a "Tidy Data.txt" file will be produced in "UCI HAR Dataset" folder
+        c. dtResults <- read.table("Tidy Data.txt")     ## to get data from text file into a data frame
+        d. View(dtResults)                              ## To view the results
 
 
