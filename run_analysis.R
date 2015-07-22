@@ -1,6 +1,5 @@
 ## Project: Getting and Cleaning Data Course Project, Programming Assignment
 
-
 ## 1. Initialisation #####################################################################
 ##########################################################################################
 # Read training data into temporary data frame
